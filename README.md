@@ -4,10 +4,14 @@
 
 ![MATLAB/Simulink](https://img.shields.io/badge/MATLAB/Simulink-0a7?style=flat-square) ![LTspice](https://img.shields.io/badge/LTspice-0a7?style=flat-square) ![Texas Instruments Power Stage Designer](https://img.shields.io/badge/Texas_Instruments_Power_Stage_Designer-0a7?style=flat-square) ![Digikey](https://img.shields.io/badge/Digikey-0a7?style=flat-square) ![Mouser](https://img.shields.io/badge/Mouser-0a7?style=flat-square) ![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-0a7?style=flat-square) ![Microsoft PowerPoint](https://img.shields.io/badge/Microsoft_PowerPoint-0a7?style=flat-square) 
 
+![Robotics &amp; Machine Learning](images/fig1.png)
+
 ### 🌐 Live project page → **https://selsaady1.github.io/egr494-robotics-ml/**
 
 ## Overview
 An EGR494 power electronics project (ASU, the course instructor) by a teammate and Saif Elsaady to design an isolated AC-DC power supply for cellphone charging. The supply targets a regulated 5V DC output at 30W from a universal single-phase AC input of 85V to 265V RMS at 60 Hz, with galvanic isolation between input and output for safety. A flyback converter topology was selected, sized through hand calculations, and verified in circuit simulation. Despite the repository name, the deliverables document a power-supply design project rather than a robotics or ML one.
+
+**Highlight:** 75.65% simulated efficiency at 5V/30W
 
 **Highlight:** 75.65% simulated efficiency at 5V/30W
 
@@ -31,9 +35,16 @@ The team followed a systematic design methodology: topology selection and justif
 - Microsoft Word
 - Microsoft PowerPoint
 
+## Gallery
+![figure](images/fig2.png)
+![figure](images/fig3.png)
+![figure](images/fig4.png)
+![figure](images/fig5.png)
+
 ## Repository Structure
 ```
 .gitignore
+.nojekyll
 LICENSE
 README.md
 docs/EGR494 Cheat sheet.docx
@@ -42,6 +53,13 @@ docs/EGR494 Project.docx
 docs/EGR494 Report.docx
 docs/TEST1_EGR494.docx
 docs/TEST2_EGR494.docx
+images/fig1.png
+images/fig2.png
+images/fig3.png
+images/fig4.png
+images/fig5.png
+images/fig6.png
+index.html
 ```
 
 ## Results
