@@ -1,0 +1,34 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Robotics &amp; Machine Learning — Saif Elsaady</title><style>
+:root{--bg:#0d1117;--card:#161b22;--bd:#30363d;--fg:#e6edf3;--mut:#8b949e;--ac:#58a6ff;--mar:#8c1d40}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
+a{color:var(--ac);text-decoration:none}.wrap{max-width:860px;margin:0 auto;padding:24px}
+.top{padding:14px 24px;border-bottom:1px solid var(--bd);font-size:.9rem}
+.hero{padding:40px 24px 8px;max-width:860px;margin:0 auto}
+.cat{display:inline-block;background:var(--mar);color:#fff;font-size:.72rem;padding:3px 10px;border-radius:999px;letter-spacing:.04em}
+h1{margin:.4rem 0 .3rem;font-size:2rem}.tag{color:var(--mut);font-size:1.1rem;margin:0 0 14px}
+.metric{display:inline-block;background:#13241a;border:1px solid #1f6f43;color:#3fb950;padding:6px 14px;border-radius:8px;font-weight:700;margin:6px 0}
+.hero-img{margin:18px 0;border:1px solid var(--bd);border-radius:12px;overflow:hidden;max-height:380px;display:flex;justify-content:center;background:#0a0d12}
+.hero-img img{max-width:100%;object-fit:contain}
+h2{font-size:1.15rem;border-left:4px solid var(--mar);padding-left:10px;margin-top:30px}
+ul{padding-left:20px}li{margin:6px 0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{background:var(--card);border:1px solid var(--bd);border-radius:999px;padding:4px 12px;font-size:.85rem}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0}
+.btn{background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:10px 16px;font-weight:600}
+.btn:hover{border-color:var(--ac)}.btn.primary{background:var(--ac);color:#06101f;border-color:var(--ac)}
+footer{color:var(--mut);font-size:.82rem;border-top:1px solid var(--bd);margin-top:36px;padding:24px;text-align:center}
+</style></head><body>
+<div class="top"><a href="https://selsaady1.github.io/portfolio/">← Portfolio</a> · <a href="https://github.com/selsaady1">github.com/selsaady1</a></div>
+<div class="hero"><span class="cat">Hardware &amp; Embedded</span><h1>Robotics &amp; Machine Learning</h1>
+<p class="tag">Isolated 5V/30W flyback power supply designed and simulated for phone charging</p><div class="metric">75.65% simulated efficiency at 5V/30W</div></div>
+<div class="wrap">
+<h2>Overview</h2><p>An EGR494 power electronics project (ASU, Dr. Mallik) by Justin Alam and Saif Elsaady to design an isolated AC-DC power supply for cellphone charging. The supply targets a regulated 5V DC output at 30W from a universal single-phase AC input of 85V to 265V RMS at 60 Hz, with galvanic isolation between input and output for safety. A flyback converter topology was selected, sized through hand calculations, and verified in circuit simulation. Despite the repository name, the deliverables document a power-supply design project rather than a robotics or ML one.</p>
+<h2>Key Achievements</h2><ul><li>Selected and justified a flyback converter topology against buck, forward, push-pull, and bridge alternatives for a 30W isolated low-power design</li><li>Designed a custom transformer with a 40:1 turns ratio and 34,000 uH inductance operating at roughly 60 kHz switching frequency</li><li>Performed voltage and current stress calculations to select real parts (e.g. a 650V MOSFET, 200V rectifier diode, 470uF/400V input and 1,000uF output capacitors) sourced via Digikey/Mouser</li><li>Simulated the converter to a steady 4.79V output with light ripple across the full input range</li><li>Computed a full loss breakdown (diode 4.2W, copper 3.61W, MOSFET 1.63W, core 0.225W; 9.665W total) to characterize efficiency</li><li>Delivered a full technical report and a 17-slide presentation, and proposed GaN switches and soft-switching as future efficiency improvements</li></ul>
+<h2>Approach</h2><p>The team followed a systematic design methodology: topology selection and justification, key specification definition, transformer turns-ratio and inductance design, component stress analysis and sourcing, and circuit simulation for verification. Calculations were carried out analytically and the converter was modeled and simulated to capture input, transformer secondary, and output waveforms. Loss and efficiency estimation was then used to evaluate the design and identify optimization opportunities.</p>
+<h2>Tools &amp; Technologies</h2><div class="chips"><span class="chip">MATLAB/Simulink</span><span class="chip">LTspice</span><span class="chip">Texas Instruments Power Stage Designer</span><span class="chip">Digikey</span><span class="chip">Mouser</span><span class="chip">Microsoft Word</span><span class="chip">Microsoft PowerPoint</span></div>
+<h2>Results</h2><p>Simulation verified a regulated output (steady 4.79V, ripple under 50mV) across the 85-265V RMS input range, with an estimated overall efficiency of 75.65% and an 8.86% current ripple against 9.665W total losses. Full design detail and waveforms are in docs/EGR494 Report.docx and the accompanying presentation.</p>
+<div class="btns"><a class="btn primary" href="https://github.com/selsaady1/egr494-robotics-ml">⌨ View source on GitHub</a><a class="btn" href="https://github.com/selsaady1/egr494-robotics-ml/blob/main/docs/EGR494%20Report.docx">📄 View deliverable</a><a class="btn" href="https://selsaady1.github.io/portfolio/">All projects</a></div>
+</div>
+<footer>Saif Elsaady — Engineering Portfolio · built from real project deliverables</footer>
+</body></html>
