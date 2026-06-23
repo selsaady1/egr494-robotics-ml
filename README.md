@@ -7,7 +7,7 @@
 ### 🌐 Live project page → **https://selsaady1.github.io/egr494-robotics-ml/**
 
 ## Overview
-An EGR494 power electronics project (ASU, Dr. Mallik) by Justin Alam and Saif Elsaady to design an isolated AC-DC power supply for cellphone charging. The supply targets a regulated 5V DC output at 30W from a universal single-phase AC input of 85V to 265V RMS at 60 Hz, with galvanic isolation between input and output for safety. A flyback converter topology was selected, sized through hand calculations, and verified in circuit simulation. Despite the repository name, the deliverables document a power-supply design project rather than a robotics or ML one.
+An EGR494 power electronics project (ASU, the course instructor) by a teammate and Saif Elsaady to design an isolated AC-DC power supply for cellphone charging. The supply targets a regulated 5V DC output at 30W from a universal single-phase AC input of 85V to 265V RMS at 60 Hz, with galvanic isolation between input and output for safety. A flyback converter topology was selected, sized through hand calculations, and verified in circuit simulation. Despite the repository name, the deliverables document a power-supply design project rather than a robotics or ML one.
 
 **Highlight:** 75.65% simulated efficiency at 5V/30W
 
